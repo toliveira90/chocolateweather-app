@@ -1,3 +1,58 @@
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #59535b;
+    border-radius: 20px;
+}
+body {
+    font-family: Quicksand;
+}
 h2 {
     color: gray;
+    font-family: Quicksand;
+    font-size: large;
+    text-align: center;
+
+}
+
+h1 {
+    color: rgb(142, 111, 142);
+    text-align: center;
+
+}
+.col-5{
+    text-align: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  color: rgb(135, 135, 135);
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+h2 i {
+    color: rgb(244, 205, 49);
+    font-size: 30px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(142, 111, 142);
+}
+
+.row i {
+  color: rgb(94, 132, 179);
+  font-size: 35px;
 }

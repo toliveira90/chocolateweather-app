@@ -14,6 +14,7 @@
     <title>Document</title>
 </head>
 <body>
+  <div class="container">
   <nav class="navbar" id="search-form">
     <div class="topnav-centered navbar-nav mx-auto">
       <a class="navbar-brand"></a>
@@ -24,9 +25,10 @@
       </form>
         </div>
       </nav>
-      </div>
+  <div class="row">
     <h2>
        Faro, Portugal
+      <i class="fas fa-sun"></i>
     </h2>
     <ul>
         <li>
@@ -36,30 +38,16 @@
       clear
     </li>
     </ul>
-    <i class="fas fa-circle"></i>
-    <div class="col-md-6">
+    </div>
+    <div class="row">
      <h1>
        22º C | °F
      </h1>
+      <ul>
+        <li>Humidity: <span id="humidity"></span>%</li>
+        <li>Wind: <span id="wind"></span>m/h</li>
+      </ul>
     </div>
-    <div class="row">
-      <div class="col">
-        <h2> 
-          Details:
-        </h2>
-        <ul>
-          <li>
-            Precipitation: 0%
-          </li>
-          <li>
-            Wind: 2km/h
-          </li>
-          <li>
-            Humidity: 50%
-          </li>
-</ul>
-   </div>
-
   <div class="row">
   <div class="col-sm">
     Sun
@@ -106,13 +94,14 @@
   <footer>
     <br />
     Lisboa, Porto London, New York, Moscow
+    <small>
+     <br> <a href="https://github.com/toliveira90/chocolateweather-app" target="blank">Open source code,</a>by Tatiana Oliveira 
+    </br>
+    </small>
   </footer>
   </div>
-  <small>
-    <a href="https://github.com/toliveira90/chocolateweather-app" target="blank">Open source code,</a>by Tatiana Oliveira
-  </small>
-
-     
    </div>
+  </div>
+  <script src="src/app.js"></script>
 </body>
 </html>

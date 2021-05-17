@@ -11,7 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c10eb74901.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Wheather App</title>
 </head>
 <body>
   <div class="container">
@@ -26,27 +27,35 @@
         </div>
       </nav>
   <div class="row">
-    <h2>
-       Faro, Portugal
-      <i class="fas fa-sun"></i>
+    
+    <h2 id="city">
     </h2>
-    <ul>
-        <li>
-       Wednesday 18:13
+    <div class="clearfix weather-temperature">
+    <img src="" alt="Clear" id="icon" class="float-left" />
+    <div class="float-left">
+    <ul class="details">
+        <li id="date">
+          Friday 18:00 
         </li>
-    <li>
-      clear
+    <li id="description">
+      clear 
     </li>
     </ul>
     </div>
     <div class="row">
-     <h1>
-       22º C | °F
-     </h1>
+     <h1 id="temperature">
+       22º 
+    </h1>
+      <small>
+      <span><a href="" class="float-left" id="celcius-link">°C</a> |
+      <a href="" class="float-left" id="farenheit-link">°F</a></span>
+      </small>
+      
       <ul>
         <li>Humidity: <span id="humidity"></span>%</li>
         <li>Wind: <span id="wind"></span>m/h</li>
       </ul>
+  
     </div>
   <div class="row">
   <div class="col-sm">

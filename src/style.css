@@ -4,10 +4,11 @@
   padding: 20px;
   border: 1px solid #59535b;
   border-radius: 20px;
+  background: linear-gradient(90deg, rgba(241,238,223,1) 0%, rgba(247,245,151,1) 68%, rgb(242, 206, 135) 100%);
 }
 body {
   font-family: Quicksand;
-}
+  }
 h2 {
   color: gray;
   font-family: Quicksand;

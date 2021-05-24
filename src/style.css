@@ -4,7 +4,7 @@
   padding: 20px;
   border: 1px solid #59535b;
   border-radius: 20px;
-  background: linear-gradient(90deg, rgba(241,238,223,1) 0%, rgb(250, 249, 174) 68%, rgb(252, 232, 190) 100%);
+  background: linear-gradient(90deg, rgba(223,239,241,1) 0%, rgba(151,176,247,1) 68%, rgb(133, 140, 244) 100%);
 }
 body {
   font-family: Quicksand;
